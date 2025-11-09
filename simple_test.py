@@ -292,5 +292,3 @@ if __name__ == "__main__":
     main()
 
 
-#Rafi bejohn
-print ("bejohn")
