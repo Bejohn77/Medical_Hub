@@ -1,0 +1,53 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+db.sqlite3
+venv/
+.env
+.env.local
+*.env
+
+# ---- Node / Frontend ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+.cache/
+.next/
+coverage/
+
+# ---- VS Code ----
+.vscode/
+*.code-workspace
+
+# ---- OS / System ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Environment / Runtime ----
+*.pid
+*.seed
+*.bak
+*.swp
+*.swo
+
+# ---- Tests / Reports ----
+*.coverage
+.coverage
+pytest_cache/
+htmlcov/
+junit.xml
+
+# ---- Temporary files ----
+*.tmp
+*.temp
+*.log
+*.bak

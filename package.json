@@ -1,0 +1,28 @@
+{
+  "name": "health-community-hub",
+  "version": "1.0.0",
+  "description": "Health Community Hub - Full-stack web application for healthcare management",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && python manage.py runserver",
+    "frontend": "cd frontend && npm start",
+    "install-all": "npm install && cd frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "setup": "npm run install-all && cd backend && pip install -r requirements.txt"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "keywords": [
+    "healthcare",
+    "django",
+    "react",
+    "fullstack"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
+
+
+
+
